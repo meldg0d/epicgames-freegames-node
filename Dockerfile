@@ -80,6 +80,6 @@ ENV NODE_ENV=production \
 
 EXPOSE 3000
 
-VOLUME [ "/usr/app/config" ]
+#VOLUME [ "/usr/app/config" ]
 
 ENTRYPOINT ["tini", "--", "docker-entrypoint.sh"]
